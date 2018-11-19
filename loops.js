@@ -1,4 +1,5 @@
 var loop = []
+
 function forLoop(loop)  {
   for (var i = 0; i < 25; i++) {
     if (i<=1) {
@@ -8,9 +9,4 @@ function forLoop(loop)  {
     }
   }
   return loop
-}
-
-function whileLoop(n > 0) {
-  console.log(n)
-  i--
 }
