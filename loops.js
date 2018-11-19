@@ -1,8 +1,6 @@
 var loop = []
 
-function incrementVariable() {
-  i = i + 1;
-}
+
 
 function forLoop(loop)  {
   for (var i = 0; i < 25; i++) {
@@ -22,9 +20,13 @@ function whileLoop(n) {
   return "done"
 }
 
+
 function doWhileLoop(array) {
+  var i
   do {
     array.pop();
-    incrementVariable;
-  } while (array.length > 0 && incrementVariable() === true)
+    incrementVariable();
+  } while (array.length > 0 && function incrementVariable() {
+    i = i + 1;
+  })
 }
