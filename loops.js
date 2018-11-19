@@ -1,12 +1,15 @@
-var loop = []
-
-function forLoop(loop)  {
+function forLoop(array)  {
   for (var i = 0; i < 25; i++) {
     if (i<=1) {
-      loop.push(`I am ${i} strange loop.`)
+      array.push(`I am ${i} strange array.`)
     } else {
-      loop.push(`I am ${i} strange loops.`);
+      array.push(`I am ${i} strange arrays.`);
     }
   }
-  return loop
+  return array
+}
+
+function whileLoop(n > 0) {
+  console.log(n)
+  i--
 }
