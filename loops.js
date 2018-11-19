@@ -10,3 +10,10 @@ function forLoop(loop)  {
   }
   return loop
 }
+
+function whileLoop(n) {
+  while (n > 0) {
+    console.log(n)
+    i--
+  }
+}
